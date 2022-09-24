@@ -105,13 +105,6 @@ export const USER_CONFIG = {
                   {"type": "生日", "name": "星星", "year": "2023", "date": "02-01"}],
       customizedDateList: [{"keyword": "love_day", date: "2022-09-15"},]
     },
-   
-  
-  
-  /**
-   * 【推送完成提醒】 相关，主要用来展示发送是否成功/失败的数据
-   */
-  
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: "IVBk-UpS1A3tS63UH6HeTCEzAIEnzLUA79nZ82EKZtM",
   
