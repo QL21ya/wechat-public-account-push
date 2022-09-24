@@ -6,12 +6,12 @@ export const USER_CONFIG = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "",
+  APP_ID: "wx7e16c4c9489013e4",
   
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "",
+  APP_SECRET: "20f006d6a295df1a302b7ae80f9c807d",
   
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -60,15 +60,15 @@ export const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "乖乖",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oMVZF6omClI3sKukzeALmxjF_nII",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "",
+      useTemplateId: "	iwDPxmKAGdkGp-dvwu8QMTkUpU99iE_l5FnovoW1DYQ",
       // 所在省份
-      province: "广东",
+      province: "吉林",
       // 所在城市
-      city: "肇庆",
+      city: "辽源",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '12-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -95,16 +95,16 @@ export const USER_CONFIG = {
       ]
     },
     {
-      name: "老婆1",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      name: "乖乖",
+      id: "oMVZF6omClI3sKukzeALmxjF_nII",
+      useTemplateId: "iwDPxmKAGdkGp-dvwu8QMTkUpU99iE_l5FnovoW1DYQ",
+      province: "吉林",
+      city: "辽源",
+      horoscopeDate: '1-3',
+      horoscopeDateType: '今日',
+      festivals: [ {"type": "生日", "name": "乖乖", "year": "2023", "date": "01-03"},
+                  {"type": "生日", "name": "星星", "year": "2023", "date": "02-01"}],
+      customizedDateList: [{"keyword": "love_day", date: "2022-09-15"},]
     },
     {
       name: "老婆2",
@@ -139,10 +139,10 @@ export const USER_CONFIG = {
    */
   
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "",
+  CALLBACK_TEMPLATE_ID: "	IVBk-UpS1A3tS63UH6HeTCEzAIEnzLUA79nZ82EKZtM",
   
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
-  CALLBACK_USERS: [
+  CALLBACK_USERS: [oMVZF6jBdcq46VeChpgTAW0UNB_U
     {
       // 一般都填自己
       name: "自己",
