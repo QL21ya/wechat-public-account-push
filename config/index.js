@@ -105,29 +105,7 @@ export const USER_CONFIG = {
                   {"type": "生日", "name": "星星", "year": "2023", "date": "02-01"}],
       customizedDateList: [{"keyword": "love_day", date: "2022-09-15"},]
     },
-    {
-      name: "老婆2",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
-    {
-      name: "老婆3",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+   
     },
     // 你可以不断按格式往下增加
     // ...
